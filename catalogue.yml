@@ -5,6 +5,6 @@
     component: catalogue
 
   tasks:
-    -name: Nodejs-setup
-    ansible.builtin.import_tasks: nodejs.yml
+    - name: Nodejs-setup
+      ansible.builtin.import_tasks: nodejs.yml
 

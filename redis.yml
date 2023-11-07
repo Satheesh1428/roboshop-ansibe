@@ -12,7 +12,7 @@
     - name: Install redis
       ansible.builtin.yum:
         name: redis
-        state: started
+        state: installed
     - name: Update listen address in mongodb configuration
       ansible.builtin.replace:
         path: /etc/redis.conf

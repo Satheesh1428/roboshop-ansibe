@@ -1,8 +1,8 @@
-- name: catalogue setup
+- name: cart setup
   hosts: all
   become: true
   vars:
-    component: catalogue
+    component: cart
 
   tasks:
     - name: Nodejs-setup

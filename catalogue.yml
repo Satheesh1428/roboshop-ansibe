@@ -3,6 +3,7 @@
   become: true
   vars:
     component: catalogue
+    scheme: true
 
   tasks:
     - name: Nodejs-setup
